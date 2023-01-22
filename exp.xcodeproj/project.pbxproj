@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		5B4883D9297420D8004D5F87 /* ApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4883D8297420D8004D5F87 /* ApiViewController.swift */; };
 		5B4883DC2975D8B9004D5F87 /* AppStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4883DB2975D8B9004D5F87 /* AppStoreViewController.swift */; };
+		5B4883E42975FEA2004D5F87 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4883E22975FEA2004D5F87 /* AlertListCell.swift */; };
+		5B4883E52975FEA2004D5F87 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4883E32975FEA2004D5F87 /* AlertListCell.xib */; };
+		5B4883E8297600ED004D5F87 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4883E7297600ED004D5F87 /* Alert.swift */; };
+		5B4883EB2976085B004D5F87 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4883EA2976085B004D5F87 /* AddAlertViewController.swift */; };
+		5B4883EF29769370004D5F87 /* DrinkWaterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4883EE29769370004D5F87 /* DrinkWaterTableViewController.swift */; };
+		5B4883F129792E31004D5F87 /* UNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4883F029792E31004D5F87 /* UNNotificationCenter.swift */; };
 		5B4DE2AE296DBC0300770FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DE2AD296DBC0300770FD8 /* AppDelegate.swift */; };
 		5B4DE2B0296DBC0300770FD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DE2AF296DBC0300770FD8 /* SceneDelegate.swift */; };
 		5B4DE2B2296DBC0300770FD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DE2B1296DBC0300770FD8 /* ViewController.swift */; };
@@ -20,6 +26,12 @@
 /* Begin PBXFileReference section */
 		5B4883D8297420D8004D5F87 /* ApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewController.swift; sourceTree = "<group>"; };
 		5B4883DB2975D8B9004D5F87 /* AppStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreViewController.swift; sourceTree = "<group>"; };
+		5B4883E22975FEA2004D5F87 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		5B4883E32975FEA2004D5F87 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		5B4883E7297600ED004D5F87 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5B4883EA2976085B004D5F87 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
+		5B4883EE29769370004D5F87 /* DrinkWaterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterTableViewController.swift; sourceTree = "<group>"; };
+		5B4883F029792E31004D5F87 /* UNNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationCenter.swift; sourceTree = "<group>"; };
 		5B4DE2AA296DBC0300770FD8 /* exp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4DE2AD296DBC0300770FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B4DE2AF296DBC0300770FD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +53,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B4883E12975FE77004D5F87 /* drink_water */ = {
+			isa = PBXGroup;
+			children = (
+				5B4883E22975FEA2004D5F87 /* AlertListCell.swift */,
+				5B4883E32975FEA2004D5F87 /* AlertListCell.xib */,
+				5B4883E7297600ED004D5F87 /* Alert.swift */,
+				5B4883EA2976085B004D5F87 /* AddAlertViewController.swift */,
+				5B4883EE29769370004D5F87 /* DrinkWaterTableViewController.swift */,
+				5B4883F029792E31004D5F87 /* UNNotificationCenter.swift */,
+			);
+			path = drink_water;
+			sourceTree = "<group>";
+		};
+		5B4883E62975FFF9004D5F87 /* api_url_session */ = {
+			isa = PBXGroup;
+			children = (
+				5B4883D8297420D8004D5F87 /* ApiViewController.swift */,
+			);
+			path = api_url_session;
+			sourceTree = "<group>";
+		};
+		5B4883E92976081F004D5F87 /* app_store */ = {
+			isa = PBXGroup;
+			children = (
+				5B4883DB2975D8B9004D5F87 /* AppStoreViewController.swift */,
+			);
+			path = app_store;
+			sourceTree = "<group>";
+		};
 		5B4DE2A1296DBC0300770FD8 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +101,9 @@
 		5B4DE2AC296DBC0300770FD8 /* exp */ = {
 			isa = PBXGroup;
 			children = (
+				5B4883E92976081F004D5F87 /* app_store */,
+				5B4883E62975FFF9004D5F87 /* api_url_session */,
+				5B4883E12975FE77004D5F87 /* drink_water */,
 				5B4DE2AD296DBC0300770FD8 /* AppDelegate.swift */,
 				5B4DE2AF296DBC0300770FD8 /* SceneDelegate.swift */,
 				5B4DE2B1296DBC0300770FD8 /* ViewController.swift */,
@@ -67,8 +111,6 @@
 				5B4DE2B6296DBC0300770FD8 /* Assets.xcassets */,
 				5B4DE2B8296DBC0300770FD8 /* LaunchScreen.storyboard */,
 				5B4DE2BB296DBC0300770FD8 /* Info.plist */,
-				5B4883D8297420D8004D5F87 /* ApiViewController.swift */,
-				5B4883DB2975D8B9004D5F87 /* AppStoreViewController.swift */,
 			);
 			path = exp;
 			sourceTree = "<group>";
@@ -133,6 +175,7 @@
 			files = (
 				5B4DE2BA296DBC0300770FD8 /* LaunchScreen.storyboard in Resources */,
 				5B4DE2B7296DBC0300770FD8 /* Assets.xcassets in Resources */,
+				5B4883E52975FEA2004D5F87 /* AlertListCell.xib in Resources */,
 				5B4DE2B5296DBC0300770FD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,10 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4883F129792E31004D5F87 /* UNNotificationCenter.swift in Sources */,
 				5B4DE2B2296DBC0300770FD8 /* ViewController.swift in Sources */,
 				5B4DE2AE296DBC0300770FD8 /* AppDelegate.swift in Sources */,
+				5B4883EF29769370004D5F87 /* DrinkWaterTableViewController.swift in Sources */,
+				5B4883EB2976085B004D5F87 /* AddAlertViewController.swift in Sources */,
 				5B4DE2B0296DBC0300770FD8 /* SceneDelegate.swift in Sources */,
+				5B4883E42975FEA2004D5F87 /* AlertListCell.swift in Sources */,
 				5B4883DC2975D8B9004D5F87 /* AppStoreViewController.swift in Sources */,
+				5B4883E8297600ED004D5F87 /* Alert.swift in Sources */,
 				5B4883D9297420D8004D5F87 /* ApiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
