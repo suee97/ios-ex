@@ -17,4 +17,8 @@ class ViewController: UIViewController {
         guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "DrinkWaterTableViewController") as? DrinkWaterTableViewController else { return }
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    @IBAction func onTapCV(_ sender: UIButton) {
+        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "CVViewController") as? CVViewController else { return }
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
